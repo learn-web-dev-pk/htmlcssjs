@@ -1,0 +1,52 @@
+body {
+	margin:5px 0px 0px 12px;
+	background-color: rgb(209,209,209);
+	font-family: 'Roboto', sans-serif;
+}
+.logo {
+	padding-top:30px;
+	padding-left:20px;
+}
+
+.header {
+	
+}
+
+
+.main-links {
+	margin-left: 74%;
+}
+
+.nav {
+
+}
+
+.body {
+
+}
+
+.social-links {
+	margin-left:89%;
+}
+
+.fb {
+	background-image: url(../images/social-icons.png);
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	background-position-x: -541px;
+	background-position-y: 4px;
+}
+
+.twitter {
+	background-image: url(../images/social-icons.png);
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	background-position-x: -541px;
+	background-position-y: 4px;
+}
+
+.footer {
+
+}
