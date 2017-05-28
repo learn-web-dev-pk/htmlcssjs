@@ -1,5 +1,13 @@
+@font-face{
+	font-family:"rosettaicons";
+	src:url("../font/rosetta-icons-Regular.eot");
+	src:url("../font/rosetta-icons-Regular.eot?#iefix") format("embedded-opentype"),url("../font/rosetta-icons-Regular.woff") format("woff"),url("../font/rosetta-icons-Regular.ttf") format("truetype");
+	font-style:normal;
+	font-weight:normal;
+}
+
 body {
-	margin:5px 0px 0px 12px;
+	margin:0px;
 	background-color: rgb(209,209,209);
 	font-family: 'Roboto', sans-serif;
 }
@@ -8,17 +16,52 @@ body {
 	padding-left:20px;
 }
 
-.header {
+header {
 	
 }
 
-
-.main-links {
-	margin-left: 74%;
+a {
+	text-decoration:none;
 }
 
-.nav {
+a:hover {
+	text-decoration:underline;
+	color:red;
+}
 
+.main-links {
+	text-align: right;
+    padding-right: 10px;
+}
+
+.main-links a:nth-child (2) {
+	color:white;
+}
+
+
+
+.nav {
+	height:70px;
+	/*background-color:#988f8f;*/
+	margin:auto;
+	font-size:30px;
+	background-image:url(../images/navbar-bg.png);
+}
+
+.nav a {
+	color:white;
+}
+
+.nav span {
+	margin: auto;
+	width: 150px;
+	display: inline-block;
+}
+
+.nav-inner {
+	float:right;
+	margin-top:18px;
+	margin-right:20px;
 }
 
 .body {
@@ -27,6 +70,10 @@ body {
 
 .social-links {
 	margin-left:89%;
+}
+
+.social-links  a {
+	text-decoration:none;
 }
 
 .fb {
@@ -39,12 +86,21 @@ body {
 }
 
 .twitter {
-	background-image: url(../images/social-icons.png);
+	/*background-image: url(../images/social-icons.png);
 	width: 45px;
 	height: 45px;
 	display: inline-block;
 	background-position-x: -541px;
 	background-position-y: 4px;
+	display: block;
+    font-family: "rosettaicons";
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+	content: "\f179";*/
+	font-size: 24px !important;
+    color: #3bbcde
 }
 
 .footer {
